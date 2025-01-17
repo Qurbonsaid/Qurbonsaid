@@ -59,8 +59,8 @@ Welcome to my GitHub profile! I'm **Rayimov Qurbonsaid**, a passionate developer
 
 ## 🔥 GitHub Stats  
 
-![Rayimov's GitHub stats](https://github-readme-stats.vercel.app/api?username=RayimovQurbonsaid&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RayimovQurbonsaid&layout=compact&theme=radical)  
+![Rayimov's GitHub stats](https://github-readme-stats.vercel.app/api?username=Qurbonsaid&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Qurbonsaid&layout=compact&theme=radical)  
 
 ---
 
