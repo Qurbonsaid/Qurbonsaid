@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Senior%20Software%20%26%20Hardware%20Engineer%20|%20Robotics%20Enthusiast&descAlignY=52&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Senior%20Software%20and%20Hardware%20Engineer&descAlignY=52&descSize=18"/>
 
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
@@ -54,24 +54,13 @@
 ║  │                                                                         │ ║
 ║  │  $ fun_fact                                                             │ ║
 ║  │  ➜ "Learning to program is more entertaining than working as            │ ║
-║  │     a developer." 😄                                                    │ ║
+║  │     a developer."                                                       │ ║
 ║  │                                                                         │ ║
 ║  └─────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                              ║
 ║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
-
-<div align="center">
-
-| 👤 **Who Am I** | 🎯 **What I Do** | 🔧 **What I Build** |
-|:---:|:---:|:---:|
-| Qurbonsaid Rayimov | Lead Software & Hardware Engineer | Full-Stack Apps & Robots |
-| 📍 Termez, Uzbekistan | @ Rekord IT | Drones & IoT Systems |
-| 🎓 CS @ Termiz State University | 3+ Years Experience | Open Source Projects |
-
-</div>
-
 ---
 
 ## 🛠️ Software Stack
