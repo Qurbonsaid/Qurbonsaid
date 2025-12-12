@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Qurbonsaid&textBg=false&fontColor=fff&animation=twinkling&desc=Senior%20Software%20and%20Hardware%20Engineer&descAlignY=65"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Senior%20Software%20%26%20Hardware%20Engineer%20|%20Robotics%20Enthusiast&descAlignY=52&descSize=18"/>
 
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
@@ -23,34 +23,46 @@
 
 ## 🧑‍💻 About Me
 
-```javascript
-const qurbonsaid = {
-    pronouns: "he" | "him",
-    location: "📍 Termez, Uzbekistan",
-    currentRole: "Lead Software & Hardware Engineer @ Rekord IT",
-    education: "Computer Science @ Termiz State University (2025-2029)",
-    
-    expertise: {
-        software: {
-            languages: ["Python", "JavaScript", "TypeScript", "Java", "Kotlin"],
-            frontend: ["React", "Vue.js", "Next.js", "Tailwind CSS"],
-            backend: ["Django", "FastAPI", "Node.js", "Spring Boot"],
-            mobile: ["Android (Native)", "React Native"],
-            databases: ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
-        },
-        hardware: {
-            platforms: ["Arduino", "Raspberry Pi", "ESP32", "STM32"],
-            robotics: ["Flight Controllers", "Motor Drivers", "PID Control"],
-            sensors: ["IMU", "GPS", "Ultrasonic", "LiDAR", "Camera Modules"],
-            protocols: ["I2C", "SPI", "UART", "CAN Bus", "PWM"]
-        },
-        devOps: ["Docker", "Kubernetes", "CI/CD", "AWS", "Google Cloud"]
-    },
-    
-    certifications: ["Android Nanodegree Certificate"],
-    funFact: "I build software that runs on hardware I also build! 🔧"
-};
 ```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  $ whoami                                                                │
+│  > Qurbonsaid Rayimov                                                    │
+│                                                                          │
+│  $ current_role                                                          │
+│  > Lead Software & Hardware Engineer @ Rekord IT                         │
+│                                                                          │
+│  $ location                                                              │
+│  > 📍 Termez, Uzbekistan                                                 │
+│                                                                          │
+│  $ education                                                             │
+│  > 🎓 Computer Science @ Termiz State University (2025-2029)             │
+│                                                                          │
+│  $ skills --software                                                     │
+│  > Python, JavaScript, TypeScript, Java, Kotlin, C++                     │
+│  > React, Vue.js, Django, FastAPI, Node.js                               │
+│  > PostgreSQL, MongoDB, Redis, Docker, Kubernetes                        │
+│                                                                          │
+│  $ skills --hardware                                                     │
+│  > Arduino, Raspberry Pi, ESP32, STM32                                   │
+│  > Flight Controllers, Drones, Sensors, ROS                              │
+│  > I2C, SPI, UART, PWM, CAN Bus                                          │
+│                                                                          │
+│  $ fun_fact                                                              │
+│  > I build software that runs on hardware I also build! 🔧               │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+| 👤 **Who Am I** | 🎯 **What I Do** | 🔧 **What I Build** |
+|:---:|:---:|:---:|
+| Qurbonsaid Rayimov | Lead Software & Hardware Engineer | Full-Stack Apps & Robots |
+| 📍 Termez, Uzbekistan | @ Rekord IT | Drones & IoT Systems |
+| 🎓 CS @ Termiz State University | 3+ Years Experience | Open Source Projects |
+
+</div>
 
 ---
 
@@ -173,6 +185,7 @@ const qurbonsaid = {
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Qurbonsaid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kuzatuvchi)
   [![Telegram](https://img.shields.io/badge/Telegram-@Qurbonsaid__Rayimov-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/Qurbonsaid_Rayimov)
   [![Email](https://img.shields.io/badge/Email-qurbonsaid.r@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qurbonsaid.r@gmail.com)
+  [![Phone](https://img.shields.io/badge/Phone-+998770010228-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+998770010228)
 
 </div>
 
@@ -180,7 +193,7 @@ const qurbonsaid = {
 
 <div align="center">
   
-  ### 💡 *"Learning to program is more entertaining than working as a developer."*
+  ### 💡 *"I build software that runs on hardware I also build!"*
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
   
