@@ -1,11 +1,11 @@
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20|%20AI%20Enthusiast%20|%20Problem%20Solver&descAlignY=52&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Senior%20Software%20%26%20Hardware%20Engineer%20|%20Robotics%20Enthusiast&descAlignY=52&descSize=18"/>
 
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+Digital+Universe!+%F0%9F%8C%8C;Building+the+Future%2C+One+Line+at+a+Time+%F0%9F%9A%80;Open+Source+Advocate+%F0%9F%92%9A;Turning+Ideas+into+Reality+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+Digital+Universe!+%F0%9F%8C%8C;Full-Stack+Developer+%2B+Hardware+Engineer+%F0%9F%94%A7;Building+Robots+%26+Drones+%F0%9F%A4%96;Turning+Ideas+into+Reality+%E2%9C%A8" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -26,29 +26,35 @@
 ```javascript
 const qurbonsaid = {
     pronouns: "he" | "him",
-    location: "🌍 Uzbekistan → The World",
-    company: "Record IT Group",
-    website: "https://the-watcher.uz",
-    currentFocus: "Building scalable web applications & exploring AI",
-    funFact: "Learning to program is more entertaining than working as a developer! 😄",
+    location: "📍 Termez, Uzbekistan",
+    currentRole: "Lead Software & Hardware Engineer @ Rekord IT",
+    education: "Computer Science @ Termiz State University (2025-2029)",
     
-    skills: {
-        languages: ["Python", "JavaScript", "TypeScript", "Java", "Go", "Rust"],
-        frontend: ["React", "Vue.js", "Next.js", "Tailwind CSS"],
-        backend: ["Django", "FastAPI", "Node.js", "Spring Boot"],
-        databases: ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-        cloud: ["AWS", "Google Cloud", "Azure", "Vercel"],
-        devOps: ["Docker", "Kubernetes", "CI/CD", "Terraform"]
+    expertise: {
+        software: {
+            languages: ["Python", "JavaScript", "TypeScript", "Java", "Kotlin"],
+            frontend: ["React", "Vue.js", "Next.js", "Tailwind CSS"],
+            backend: ["Django", "FastAPI", "Node.js", "Spring Boot"],
+            mobile: ["Android (Native)", "React Native"],
+            databases: ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
+        },
+        hardware: {
+            platforms: ["Arduino", "Raspberry Pi", "ESP32", "STM32"],
+            robotics: ["Flight Controllers", "Motor Drivers", "PID Control"],
+            sensors: ["IMU", "GPS", "Ultrasonic", "LiDAR", "Camera Modules"],
+            protocols: ["I2C", "SPI", "UART", "CAN Bus", "PWM"]
+        },
+        devOps: ["Docker", "Kubernetes", "CI/CD", "AWS", "Google Cloud"]
     },
     
-    currentlyLearning: ["Machine Learning", "System Design", "Web3"],
-    askMeAbout: ["Full-Stack Development", "Cloud Architecture", "AI/ML"]
+    certifications: ["Android Nanodegree Certificate"],
+    funFact: "I build software that runs on hardware I also build! 🔧"
 };
 ```
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🛠️ Software Stack
 
 <div align="center">
 
@@ -57,14 +63,15 @@ const qurbonsaid = {
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ### Backend & Databases
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -80,6 +87,32 @@ const qurbonsaid = {
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</div>
+
+---
+
+## 🔧 Hardware Stack
+
+<div align="center">
+
+### Microcontrollers & Platforms
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+
+### Robotics & Drones
+![Flight Controller](https://img.shields.io/badge/Flight_Controller-FF6600?style=for-the-badge&logo=drone&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white)
+![Sensor Kits](https://img.shields.io/badge/Sensor_Kits-00A98F?style=for-the-badge&logo=hackthebox&logoColor=white)
+
+### Protocols & Tools
+![I2C](https://img.shields.io/badge/I2C-5C2D91?style=for-the-badge&logoColor=white)
+![SPI](https://img.shields.io/badge/SPI-007ACC?style=for-the-badge&logoColor=white)
+![UART](https://img.shields.io/badge/UART-FFA500?style=for-the-badge&logoColor=white)
+![PWM](https://img.shields.io/badge/PWM-4CAF50?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -102,22 +135,32 @@ const qurbonsaid = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 💼 Experience
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Qurbonsaid&theme=discord&no-frame=true&no-bg=true&margin-w=4&row=1"/>
-</div>
+```
+🏢 Rekord IT                                    📍 Termez, Uzbekistan
+├── 👨‍💼 Lead Software & Hardware Engineer         Oct 2025 - Present
+└── 💻 Back End Developer                        Oct 2024 - Oct 2025
+
+🏢 Tenx Group                                   📍 Tashkent, Uzbekistan
+└── 💻 Back End Developer                        Feb 2023 - Jan 2025
+
+🏢 Surf Bro Apps                                📍 Angor, Uzbekistan
+└── 📱 Android Developer                         Apr 2022 - Feb 2023
+```
 
 ---
 
-## 🐍 Contribution Snake
+## 🎓 Education & Certifications
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Qurbonsaid/Qurbonsaid/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Qurbonsaid/Qurbonsaid/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Qurbonsaid/Qurbonsaid/output/github-snake.svg" />
-  </picture>
+
+| 🎓 Education | 📜 Certification |
+|-------------|------------------|
+| **Termiz State University** - Computer Science (2025-2029) | **Android Nanodegree** - Certified Developer |
+| **IT Park University** - Software Engineering (2023-2024) | |
+| **TUIT** - Business Administration (2022-2023) | |
+
 </div>
 
 ---
@@ -130,6 +173,7 @@ const qurbonsaid = {
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Qurbonsaid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kuzatuvchi)
   [![Telegram](https://img.shields.io/badge/Telegram-@Qurbonsaid__Rayimov-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/Qurbonsaid_Rayimov)
   [![Email](https://img.shields.io/badge/Email-qurbonsaid.r@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qurbonsaid.r@gmail.com)
+  [![Phone](https://img.shields.io/badge/Phone-+998770010228-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+998770010228)
 
 </div>
 
@@ -137,7 +181,7 @@ const qurbonsaid = {
 
 <div align="center">
   
-  ### 💡 *"Learning to program is more entertaining than working as a developer."*
+  ### 💡 *"I build software that runs on hardware I also build!"*
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
   
