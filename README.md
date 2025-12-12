@@ -24,34 +24,42 @@
 ## 🧑‍💻 About Me
 
 ```
-┌──────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│  $ whoami                                                                │
-│  > Qurbonsaid Rayimov                                                    │
-│                                                                          │
-│  $ current_role                                                          │
-│  > Lead Software & Hardware Engineer @ Rekord IT                         │
-│                                                                          │
-│  $ location                                                              │
-│  > 📍 Termez, Uzbekistan                                                 │
-│                                                                          │
-│  $ education                                                             │
-│  > 🎓 Computer Science @ Termiz State University (2025-2029)             │
-│                                                                          │
-│  $ skills --software                                                     │
-│  > Python, JavaScript, TypeScript, Java, Kotlin, C++                     │
-│  > React, Vue.js, Django, FastAPI, Node.js                               │
-│  > PostgreSQL, MongoDB, Redis, Docker, Kubernetes                        │
-│                                                                          │
-│  $ skills --hardware                                                     │
-│  > Arduino, Raspberry Pi, ESP32, STM32                                   │
-│  > Flight Controllers, Drones, Sensors, ROS                              │
-│  > I2C, SPI, UART, PWM, CAN Bus                                          │
-│                                                                          │
-│  $ fun_fact                                                              │
-│  > I build software that runs on hardware I also build! 🔧               │
-│                                                                          │
-└──────────────────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║  ░▒▓█ SYSTEM TERMINAL █▓▒░                                                   ║
+║                                                                              ║
+║  ┌─────────────────────────────────────────────────────────────────────────┐ ║
+║  │                                                                         │ ║
+║  │  $ whoami                                                               │ ║
+║  │  ➜ Qurbonsaid Rayimov                                                   │ ║
+║  │                                                                         │ ║
+║  │  $ current_role                                                         │ ║
+║  │  ➜ Lead Software & Hardware Engineer @ Rekord IT                        │ ║
+║  │                                                                         │ ║
+║  │  $ location                                                             │ ║
+║  │  ➜ 📍 Termez, Uzbekistan                                                │ ║
+║  │                                                                         │ ║
+║  │  $ education                                                            │ ║
+║  │  ➜ 🎓 Computer Science @ Termiz State University (2025-2029)            │ ║
+║  │                                                                         │ ║
+║  │  $ skills --software                                                    │ ║
+║  │  ➜ Python, JavaScript, TypeScript, Java, Kotlin, C++                    │ ║
+║  │  ➜ React, Vue.js, Django, FastAPI, Node.js                              │ ║
+║  │  ➜ PostgreSQL, MongoDB, Redis, Docker, Kubernetes                       │ ║
+║  │                                                                         │ ║
+║  │  $ skills --hardware                                                    │ ║
+║  │  ➜ Arduino, Raspberry Pi, ESP32, STM32                                  │ ║
+║  │  ➜ Flight Controllers, Drones, Sensors, ROS                             │ ║
+║  │  ➜ I2C, SPI, UART, PWM, CAN Bus                                         │ ║
+║  │                                                                         │ ║
+║  │  $ fun_fact                                                             │ ║
+║  │  ➜ "Learning to program is more entertaining than working as            │ ║
+║  │     a developer." 😄                                                    │ ║
+║  │                                                                         │ ║
+║  └─────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                              ║
+║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 <div align="center">
@@ -185,7 +193,6 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Qurbonsaid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kuzatuvchi)
   [![Telegram](https://img.shields.io/badge/Telegram-@Qurbonsaid__Rayimov-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/Qurbonsaid_Rayimov)
   [![Email](https://img.shields.io/badge/Email-qurbonsaid.r@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qurbonsaid.r@gmail.com)
-  [![Phone](https://img.shields.io/badge/Phone-+998770010228-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+998770010228)
 
 </div>
 
@@ -193,7 +200,7 @@
 
 <div align="center">
   
-  ### 💡 *"I build software that runs on hardware I also build!"*
+  ### 💡 *"Learning to program is more entertaining than working as a developer."*
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
   
