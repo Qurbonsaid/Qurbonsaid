@@ -7,407 +7,385 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">
-                <span class="logo-text">Q</span>urbonsaid
-            </a>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <!-- Scanline Effect -->
+    <div class="scanlines"></div>
+    
+    <!-- CRT Screen Container -->
+    <div class="crt-screen">
+        
+        <!-- Top Menu Bar -->
+        <nav class="menu-bar">
+            <div class="menu-items">
+                <a href="#home" class="menu-item active" data-section="home">Home</a>
+                <a href="#about" class="menu-item" data-section="about">About</a>
+                <a href="#skills" class="menu-item" data-section="skills">Skills</a>
+                <a href="#experience" class="menu-item" data-section="experience">Experience</a>
+                <a href="#contact" class="menu-item" data-section="contact">Contact</a>
             </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <p class="hero-greeting">👋 Hello, I'm</p>
-                <h1 class="hero-title">Qurbonsaid <span class="highlight">Rayimov</span></h1>
-                <h2 class="hero-subtitle">
-                    <span class="typed-text"></span><span class="cursor">|</span>
-                </h2>
-                <p class="hero-description">
-                    I build software that runs on hardware I also build.  
-                    Full-Stack Developer by day, Robotics Engineer by passion.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="#about" class="btn btn-secondary">Learn More</a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://github.com/Qurbonsaid" target="_blank" class="social-link" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/kuzatuvchi" target="_blank" class="social-link" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://telegram.me/Qurbonsaid_Rayimov" target="_blank" class="social-link" aria-label="Telegram">
-                        <i class="fab fa-telegram-plane"></i>
-                    </a>
-                    <a href="mailto:qurbonsaid. r@gmail.com" class="social-link" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
+            <div class="menu-help">
+                <span class="key">F1</span> Help
             </div>
-            <div class="hero-image">
-                <div class="code-window">
-                    <div class="window-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                        <span class="window-title">terminal</span>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="window">
+                    <div class="window-title">
+                        <span class="title-text">░▒▓█ SYSTEM PROFILE █▓▒░</span>
                     </div>
-                    <div class="window-body">
-                        <pre><code><span class="prompt">$</span> whoami
-<span class="output">Qurbonsaid Rayimov</span>
+                    <div class="window-content">
+                        <div class="ascii-art">
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   ██████╗ ██╗   ██╗██████╗ ██████╗  ██████╗ ███╗   ██╗         │
+│  ██╔═══██╗██║   ██║██╔══██╗██╔══██╗██╔═══██╗████╗  ██║         │
+│  ██║   ██║██║   ██║██████╔╝██████╔╝██║   ██║██╔██╗ ██║         │
+│  ██║▄▄ ██║██║   ██║██╔══██╗██╔══██╗██║   ██║██║╚██╗██║         │
+│  ╚██████╔╝╚██████╔╝██║  ██║██████╔╝╚██████╔╝██║ ╚████║         │
+│   ╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝         │
+│                                                                 │
+│           ███████╗ █████╗ ██╗██████╗                           │
+│           ██╔════╝██╔══██╗██║██╔══██╗                          │
+│           ███████╗███████║██║██║  ██║                          │
+│           ╚════██║██╔══██║██║██║  ██║                          │
+│           ███████║██║  ██║██║██████╔╝                          │
+│           ╚══════╝╚═╝  ╚═╝╚═╝╚═════╝                           │
+│                                                                 │
+│              R  A  Y  I  M  O  V                                │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+                        </div>
+                        
+                        <div class="info-box">
+                            <div class="info-row">
+                                <span class="label">ROLE:</span>
+                                <span class="value highlight">Senior Software & Hardware Engineer</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">LOCATION:</span>
+                                <span class="value">Termez, Uzbekistan</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">COMPANY:</span>
+                                <span class="value">Rekord IT</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">STATUS:</span>
+                                <span class="value blink">■ OPEN FOR WORK</span>
+                            </div>
+                        </div>
 
-<span class="prompt">$</span> current_role
-<span class="output">Lead Software & Hardware Engineer @ Rekord IT</span>
+                        <div class="typing-container">
+                            <span class="prompt">C:\QURBONSAID></span>
+                            <span class="typed-text"></span>
+                            <span class="cursor">█</span>
+                        </div>
 
-<span class="prompt">$</span> skills --list
-<span class="output">Python, JavaScript, TypeScript, Java, C++
-Arduino, ESP32, Raspberry Pi, Drones</span>
-
-<span class="prompt">$</span> fun_fact
-<span class="output">"Learning to program is more entertaining
- than working as a developer."</span></code></pre>
+                        <div class="nav-buttons">
+                            <button class="dos-btn" onclick="navigateTo('about')">[A]bout Me</button>
+                            <button class="dos-btn" onclick="navigateTo('skills')">[S]kills</button>
+                            <button class="dos-btn" onclick="navigateTo('contact')">[C]ontact</button>
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="window">
+                    <div class="window-title">
+                        <span class="title-text">░▒▓█ ABOUT ME █▓▒░</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="terminal-output">
+                            <p class="command">> cat about.txt</p>
+                            <div class="output-text">
+                                <p>I'm a <span class="highlight">Senior Software & Hardware Engineer</span> based in Termez, Uzbekistan, with a passion for building innovative solutions that bridge the gap between software and hardware.</p>
+                                <br>
+                                <p>Currently serving as <span class="highlight">Lead Software & Hardware Engineer at Rekord IT</span>, where I develop full-stack applications and design robotics systems including drones and IoT devices.</p>
+                                <br>
+                                <p>My journey in tech started with Android development and evolved into a comprehensive skill set spanning web development, cloud infrastructure, and embedded systems.</p>
+                            </div>
+                        </div>
+
+                        <div class="stats-box">
+                            <div class="stat-item">
+                                <div class="stat-bar">
+                                    <span class="stat-fill" style="width: 75%"></span>
+                                </div>
+                                <span class="stat-label">Experience: 3+ Years</span>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-bar">
+                                    <span class="stat-fill" style="width: 90%"></span>
+                                </div>
+                                <span class="stat-label">Projects: 10+ Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-bar">
+                                    <span class="stat-fill" style="width: 100%"></span>
+                                </div>
+                                <span class="stat-label">Domains: Software + Hardware</span>
+                            </div>
+                        </div>
+
+                        <div class="info-table">
+                            <div class="table-row">
+                                <span class="table-label">Name:</span>
+                                <span class="table-value">Qurbonsaid Rayimov</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="table-label">Email:</span>
+                                <span class="table-value link">qurbonsaid.r@gmail.com</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="table-label">Education:</span>
+                                <span class="table-value">CS @ Termiz State University (2025-2029)</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="table-label">Certification:</span>
+                                <span class="table-value">Android Nanodegree Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="window">
+                    <div class="window-title">
+                        <span class="title-text">░▒▓█ SKILLS DATABASE █▓▒░</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="skills-tabs">
+                            <button class="tab-btn active" data-tab="software">[1] Software</button>
+                            <button class="tab-btn" data-tab="hardware">[2] Hardware</button>
+                            <button class="tab-btn" data-tab="devops">[3] DevOps</button>
+                        </div>
+
+                        <div class="skills-panel active" id="software-panel">
+                            <div class="skill-category">
+                                <p class="category-title">═══ LANGUAGES ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ Python</span>
+                                    <span class="skill-item">■ JavaScript</span>
+                                    <span class="skill-item">■ TypeScript</span>
+                                    <span class="skill-item">■ Java</span>
+                                    <span class="skill-item">■ Kotlin</span>
+                                    <span class="skill-item">■ C++</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <p class="category-title">═══ FRAMEWORKS ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ React</span>
+                                    <span class="skill-item">■ Vue.js</span>
+                                    <span class="skill-item">■ Next.js</span>
+                                    <span class="skill-item">■ Django</span>
+                                    <span class="skill-item">■ FastAPI</span>
+                                    <span class="skill-item">■ Node.js</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <p class="category-title">═══ DATABASES ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ PostgreSQL</span>
+                                    <span class="skill-item">■ MongoDB</span>
+                                    <span class="skill-item">■ Redis</span>
+                                    <span class="skill-item">■ MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-panel" id="hardware-panel">
+                            <div class="skill-category">
+                                <p class="category-title">═══ MICROCONTROLLERS ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ Arduino</span>
+                                    <span class="skill-item">■ Raspberry Pi</span>
+                                    <span class="skill-item">■ ESP32</span>
+                                    <span class="skill-item">■ STM32</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <p class="category-title">═══ ROBOTICS & DRONES ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ Flight Controllers</span>
+                                    <span class="skill-item">■ ROS</span>
+                                    <span class="skill-item">■ PlatformIO</span>
+                                    <span class="skill-item">■ Sensor Kits</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <p class="category-title">═══ PROTOCOLS ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ I2C</span>
+                                    <span class="skill-item">■ SPI</span>
+                                    <span class="skill-item">■ UART</span>
+                                    <span class="skill-item">■ PWM</span>
+                                    <span class="skill-item">■ CAN Bus</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-panel" id="devops-panel">
+                            <div class="skill-category">
+                                <p class="category-title">═══ CLOUD PLATFORMS ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ AWS</span>
+                                    <span class="skill-item">■ Google Cloud</span>
+                                    <span class="skill-item">■ Azure</span>
+                                    <span class="skill-item">■ Vercel</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <p class="category-title">═══ TOOLS ═══</p>
+                                <div class="skill-list">
+                                    <span class="skill-item">■ Docker</span>
+                                    <span class="skill-item">■ Kubernetes</span>
+                                    <span class="skill-item">■ GitHub Actions</span>
+                                    <span class="skill-item">■ CI/CD</span>
+                                    <span class="skill-item">■ Linux</span>
+                                    <span class="skill-item">■ Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="window">
+                    <div class="window-title">
+                        <span class="title-text">░▒▓█ WORK HISTORY █▓▒░</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="terminal-output">
+                            <p class="command">> dir /experience</p>
+                        </div>
+
+                        <div class="experience-list">
+                            <div class="exp-item">
+                                <div class="exp-header">
+                                    <span class="exp-company">REKORD IT</span>
+                                    <span class="exp-location">Termez, UZ</span>
+                                </div>
+                                <div class="exp-role highlight">Lead Software & Hardware Engineer</div>
+                                <div class="exp-date">Oct 2025 - Present</div>
+                                <div class="exp-desc">Leading software and hardware development projects</div>
+                            </div>
+
+                            <div class="exp-item">
+                                <div class="exp-header">
+                                    <span class="exp-company">REKORD IT</span>
+                                    <span class="exp-location">Termez, UZ</span>
+                                </div>
+                                <div class="exp-role">Back End Developer</div>
+                                <div class="exp-date">Oct 2024 - Oct 2025</div>
+                                <div class="exp-desc">Developed scalable backend solutions</div>
+                            </div>
+
+                            <div class="exp-item">
+                                <div class="exp-header">
+                                    <span class="exp-company">TENX GROUP</span>
+                                    <span class="exp-location">Tashkent, UZ</span>
+                                </div>
+                                <div class="exp-role">Back End Developer</div>
+                                <div class="exp-date">Feb 2023 - Jan 2025</div>
+                                <div class="exp-desc">Built enterprise backend services</div>
+                            </div>
+
+                            <div class="exp-item">
+                                <div class="exp-header">
+                                    <span class="exp-company">SURF BRO APPS</span>
+                                    <span class="exp-location">Angor, UZ</span>
+                                </div>
+                                <div class="exp-role">Android Developer</div>
+                                <div class="exp-date">Apr 2022 - Feb 2023</div>
+                                <div class="exp-desc">Developed native Android applications</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="window">
+                    <div class="window-title">
+                        <span class="title-text">░▒▓█ CONTACT TERMINAL █▓▒░</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="terminal-output">
+                            <p class="command">> cat contact_info.txt</p>
+                        </div>
+
+                        <div class="contact-grid">
+                            <a href="mailto:qurbonsaid.r@gmail.com" class="contact-item">
+                                <span class="contact-icon">[✉]</span>
+                                <span class="contact-label">EMAIL</span>
+                                <span class="contact-value">qurbonsaid.r@gmail.com</span>
+                            </a>
+                            <a href="https://telegram.me/Qurbonsaid_Rayimov" target="_blank" class="contact-item">
+                                <span class="contact-icon">[✈]</span>
+                                <span class="contact-label">TELEGRAM</span>
+                                <span class="contact-value">@Qurbonsaid_Rayimov</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kuzatuvchi" target="_blank" class="contact-item">
+                                <span class="contact-icon">[in]</span>
+                                <span class="contact-label">LINKEDIN</span>
+                                <span class="contact-value">Qurbonsaid Rayimov</span>
+                            </a>
+                            <a href="https://github.com/Qurbonsaid" target="_blank" class="contact-item">
+                                <span class="contact-icon">[◊]</span>
+                                <span class="contact-label">GITHUB</span>
+                                <span class="contact-value">github.com/Qurbonsaid</span>
+                            </a>
+                            <a href="https://the-watcher.uz" target="_blank" class="contact-item">
+                                <span class="contact-icon">[⌂]</span>
+                                <span class="contact-label">WEBSITE</span>
+                                <span class="contact-value">the-watcher.uz</span>
+                            </a>
+                        </div>
+
+                        <div class="cta-box">
+                            <p>╔════════════════════════════════════════════════════╗</p>
+                            <p>║  Ready to collaborate? Let's build something!      ║</p>
+                            <p>╚════════════════════════════════════════════════════╝</p>
+                            <div class="cta-buttons">
+                                <a href="mailto:qurbonsaid.r@gmail.com" class="dos-btn primary">[SEND MESSAGE]</a>
+                                <a href="https://github.com/Qurbonsaid" target="_blank" class="dos-btn">[VIEW GITHUB]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Status Bar -->
+        <footer class="status-bar">
+            <div class="status-left">
+                <span class="key">F1</span> Help
+                <span class="key">Alt-Q</span> Exit
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <a href="#about">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
-    </section>
+            <div class="status-center">
+                "Learning to program is more entertaining than working as a developer."
+            </div>
+            <div class="status-right">
+                <span id="current-time"></span>
+            </div>
+        </footer>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">About <span class="highlight">Me</span></h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a <strong>Senior Software & Hardware Engineer</strong> based in Termez, Uzbekistan, 
-                        with a passion for building innovative solutions that bridge the gap between software and hardware. 
-                    </p>
-                    <p>
-                        Currently, I serve as the <strong>Lead Software & Hardware Engineer at Rekord IT</strong>, 
-                        where I develop full-stack applications and design robotics systems including drones and IoT devices.
-                    </p>
-                    <p>
-                        My journey in tech started with Android development and evolved into a comprehensive skill set 
-                        spanning web development, cloud infrastructure, and embedded systems. I believe in creating 
-                        technology that makes a real-world impact.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">3+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10+</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">2</span>
-                            <span class="stat-label">Domains Mastered</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-info">
-                    <div class="info-card">
-                        <h3><i class="fas fa-user"></i> Personal Info</h3>
-                        <ul>
-                            <li><strong>Name:</strong> Qurbonsaid Rayimov</li>
-                            <li><strong>Location:</strong> Termez, Uzbekistan</li>
-                            <li><strong>Email:</strong> qurbonsaid. r@gmail.com</li>
-                            <li><strong>Availability:</strong> <span class="available">Open for Work</span></li>
-                        </ul>
-                    </div>
-                    <div class="info-card">
-                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-                        <ul>
-                            <li><strong>Termiz State University</strong><br>Computer Science (2025-2029)</li>
-                            <li><strong>IT Park University</strong><br>Software Engineering (2023-2024)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
-            <div class="skills-tabs">
-                <button class="tab-btn active" data-tab="software">
-                    <i class="fas fa-code"></i> Software
-                </button>
-                <button class="tab-btn" data-tab="hardware">
-                    <i class="fas fa-microchip"></i> Hardware
-                </button>
-                <button class="tab-btn" data-tab="tools">
-                    <i class="fas fa-tools"></i> Tools & DevOps
-                </button>
-            </div>
-            <div class="skills-content">
-                <div class="tab-content active" id="software">
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-js"></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-react"></i>
-                            <span>React</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-vuejs"></i>
-                            <span>Vue.js</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-node-js"></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-database"></i>
-                            <span>PostgreSQL</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-java"></i>
-                            <span>Java</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-android"></i>
-                            <span>Android</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" id="hardware">
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <i class="fas fa-microchip"></i>
-                            <span>Arduino</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-raspberry-pi"></i>
-                            <span>Raspberry Pi</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-microchip"></i>
-                            <span>ESP32</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-microchip"></i>
-                            <span>STM32</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-helicopter"></i>
-                            <span>Drones</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-robot"></i>
-                            <span>ROS</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-satellite-dish"></i>
-                            <span>Sensors</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-network-wired"></i>
-                            <span>I2C/SPI/UART</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" id="tools">
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <i class="fab fa-docker"></i>
-                            <span>Docker</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-dharmachakra"></i>
-                            <span>Kubernetes</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-aws"></i>
-                            <span>AWS</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-google"></i>
-                            <span>Google Cloud</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub Actions</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-git-alt"></i>
-                            <span>Git</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fab fa-linux"></i>
-                            <span>Linux</span>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-terminal"></i>
-                            <span>CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Lead Software & Hardware Engineer</h3>
-                            <span class="timeline-company">Rekord IT</span>
-                        </div>
-                        <span class="timeline-date">Oct 2025 - Present</span>
-                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Termez, Uzbekistan</p>
-                        <p>Leading software and hardware development projects, building full-stack applications and robotics systems.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Back End Developer</h3>
-                            <span class="timeline-company">Rekord IT</span>
-                        </div>
-                        <span class="timeline-date">Oct 2024 - Oct 2025</span>
-                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Termez, Uzbekistan</p>
-                        <p>Developed scalable backend solutions using Django, FastAPI, and Node.js. </p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Back End Developer</h3>
-                            <span class="timeline-company">Tenx Group</span>
-                        </div>
-                        <span class="timeline-date">Feb 2023 - Jan 2025</span>
-                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Tashkent, Uzbekistan</p>
-                        <p>Built and maintained backend services for enterprise applications. </p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Android Developer</h3>
-                            <span class="timeline-company">Surf Bro Apps</span>
-                        </div>
-                        <span class="timeline-date">Apr 2022 - Feb 2023</span>
-                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Angor, Uzbekistan</p>
-                        <p>Developed native Android applications using Kotlin and Java.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
-            <p class="contact-intro">
-                I'm currently open for new opportunities.  Whether you have a question or just want to say hi, 
-                I'll try my best to get back to you! 
-            </p>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <a href="mailto:qurbonsaid.r@gmail.com">qurbonsaid.r@gmail.com</a>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fab fa-telegram-plane"></i>
-                        <h3>Telegram</h3>
-                        <a href="https://telegram.me/Qurbonsaid_Rayimov" target="_blank">@Qurbonsaid_Rayimov</a>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fab fa-linkedin-in"></i>
-                        <h3>LinkedIn</h3>
-                        <a href="https://www.linkedin.com/in/kuzatuvchi" target="_blank">Qurbonsaid Rayimov</a>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-globe"></i>
-                        <h3>Website</h3>
-                        <a href="https://the-watcher.uz" target="_blank">the-watcher.uz</a>
-                    </div>
-                </div>
-                <div class="contact-cta">
-                    <a href="mailto:qurbonsaid.r@gmail.com" class="btn btn-primary btn-large">
-                        <i class="fas fa-paper-plane"></i> Send Message
-                    </a>
-                    <a href="https://github.com/Qurbonsaid" target="_blank" class="btn btn-secondary btn-large">
-                        <i class="fab fa-github"></i> View GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-quote">
-                    💡 "Learning to program is more entertaining than working as a developer."
-                </p>
-                <div class="footer-social">
-                    <a href="https://github.com/Qurbonsaid" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/kuzatuvchi" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://telegram.me/Qurbonsaid_Rayimov" target="_blank" aria-label="Telegram">
-                        <i class="fab fa-telegram-plane"></i>
-                    </a>
-                    <a href="mailto:qurbonsaid.r@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                <p class="footer-copyright">
-                    © 2025 Qurbonsaid Rayimov. All rights reserved. 
-                </p>
-            </div>
-        </div>
-    </footer>
+    </div>
 
     <script src="index.js"></script>
 </body>
