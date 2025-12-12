@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qurbonsaid%20Rayimov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Senior%20Software%20%26%20Hardware%20Engineer%20|%20Robotics%20Enthusiast&descAlignY=52&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Qurbonsaid&textBg=false&fontColor=fff&animation=twinkling&desc=Senior%20Software%20and%20Hardware%20Engineer&descAlignY=65"/>
 
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
@@ -173,7 +173,6 @@ const qurbonsaid = {
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Qurbonsaid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kuzatuvchi)
   [![Telegram](https://img.shields.io/badge/Telegram-@Qurbonsaid__Rayimov-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/Qurbonsaid_Rayimov)
   [![Email](https://img.shields.io/badge/Email-qurbonsaid.r@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qurbonsaid.r@gmail.com)
-  [![Phone](https://img.shields.io/badge/Phone-+998770010228-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+998770010228)
 
 </div>
 
@@ -181,7 +180,7 @@ const qurbonsaid = {
 
 <div align="center">
   
-  ### 💡 *"I build software that runs on hardware I also build!"*
+  ### 💡 *"Learning to program is more entertaining than working as a developer."*
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
   
