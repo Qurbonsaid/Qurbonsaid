@@ -31,29 +31,29 @@
 ║  ┌─────────────────────────────────────────────────────────────────────────┐ ║
 ║  │                                                                         │ ║
 ║  │  $ whoami                                                               │ ║
-║  │  ➜ Qurbonsaid Rayimov                                                   │ ║
+║  │  ➜ Qurbonsaid Rayimov                                                  │ ║
 ║  │                                                                         │ ║
 ║  │  $ current_role                                                         │ ║
-║  │  ➜ Lead Software & Hardware Engineer @ Rekord IT                        │ ║
+║  │  ➜ Lead Software & Hardware Engineer @ Rekord IT                       │ ║
 ║  │                                                                         │ ║
 ║  │  $ location                                                             │ ║
-║  │  ➜ 📍 Termez, Uzbekistan                                                │ ║
+║  │  ➜ Termez, Uzbekistan                                                  │ ║
 ║  │                                                                         │ ║
 ║  │  $ education                                                            │ ║
-║  │  ➜ 🎓 Computer Science @ Termiz State University (2025-2029)            │ ║
+║  │  ➜ Computer Science @ Termiz State University (2025-2029)              │ ║
 ║  │                                                                         │ ║
 ║  │  $ skills --software                                                    │ ║
-║  │  ➜ Python, JavaScript, TypeScript, Java, Kotlin, C++                    │ ║
-║  │  ➜ React, Vue.js, Django, FastAPI, Node.js                              │ ║
-║  │  ➜ PostgreSQL, MongoDB, Redis, Docker, Kubernetes                       │ ║
+║  │  ➜ Python, JavaScript, TypeScript, Java, Kotlin, C++                   │ ║
+║  │  ➜ React, Vue.js, Django, FastAPI, Node.js                             │ ║
+║  │  ➜ PostgreSQL, MongoDB, Redis, Docker, Kubernetes                      │ ║
 ║  │                                                                         │ ║
 ║  │  $ skills --hardware                                                    │ ║
-║  │  ➜ Arduino, Raspberry Pi, ESP32, STM32                                  │ ║
-║  │  ➜ Flight Controllers, Drones, Sensors, ROS                             │ ║
-║  │  ➜ I2C, SPI, UART, PWM, CAN Bus                                         │ ║
+║  │  ➜ Arduino, Raspberry Pi, ESP32, STM32                                 │ ║
+║  │  ➜ Flight Controllers, Drones, Sensors, ROS                            │ ║
+║  │  ➜ I2C, SPI, UART, PWM, CAN Bus                                        │ ║
 ║  │                                                                         │ ║
 ║  │  $ fun_fact                                                             │ ║
-║  │  ➜ "Learning to program is more entertaining than working as            │ ║
+║  │  ➜ "Learning to program is more entertaining than working as           │ ║
 ║  │     a developer."                                                       │ ║
 ║  │                                                                         │ ║
 ║  └─────────────────────────────────────────────────────────────────────────┘ ║
@@ -132,10 +132,6 @@
 <div align="center">
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Qurbonsaid&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Qurbonsaid's GitHub Stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qurbonsaid&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
-</div>
-
-<div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Qurbonsaid&theme=tokyonight&hide_border=true&stroke=0000&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="Qurbonsaid's Streak Stats"/>
 </div>
 
 <div align="center">
