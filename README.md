@@ -37,10 +37,10 @@
 ║  │  ➜ Lead Software & Hardware Engineer @ Rekord IT                        │ ║
 ║  │                                                                         │ ║
 ║  │  $ location                                                             │ ║
-║  │  ➜ Termez, Uzbekistan                                                  │ ║
+║  │  ➜ Termez, Uzbekistan                                                   │ ║
 ║  │                                                                         │ ║
 ║  │  $ education                                                            │ ║
-║  │  ➜ Computer Science @ Termiz State University (2025-2029)              │ ║
+║  │  ➜ Computer Science @ Termiz State University (2025-2029)               │ ║
 ║  │                                                                         │ ║
 ║  │  $ skills --software                                                    │ ║
 ║  │  ➜ Python, JavaScript, TypeScript, Java, Kotlin, C++                    │ ║
@@ -128,10 +128,6 @@
 ---
 
 ## 📊 GitHub Analytics
-
-<div align="center">
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qurbonsaid&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
-</div>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Qurbonsaid&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&hide_border=true" width="90%"/>
